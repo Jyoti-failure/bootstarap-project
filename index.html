@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+    <!-- navbar start-->
+    <nav class="navbar navbar-expand-lg  navbar-dark" id="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>About</b></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Service</b></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Contact</b></a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search" id="searchform">
+              <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" id="searchbox">
+              <button class="btn btn-success" type="submit" id="searchbtn"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+
+    <!-- container start -->
+    <div class="container-fluid">
+        <div class="row justify-content-evenly" id="banner">
+            <div class="col-md-6 col-11" id="bannertext">
+              <h1 class="text-success">First I Wanted to be<br>
+               a veterinarian</h1>
+              <p class="text-success"><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Aliquam explicabo<br> 
+                necessitatibus a autem. Eveniet exercitationem maiores architecto,similique<br>
+                amet debitis, explicabo ea consectetur perspiciatis excepturi accusamus <br> 
+                itaque vitae necessitatibus provident.</b>
+              </p>
+        
+              <button type="button" class="btn btn-success" id="btn1"><b>Contact Us</b></button>
+              <button type="button" class="btn btn-outline-success" id="btn2"><b>Our Service</b></button>
+        
+            </div>
+
+            <div class="col-md-4 col-11" id="bannereimg">
+              <img src="images/dog.jpg" alt="" class="img-thumbnail" >
+            </div>
+        </div>
+
+
+       <!-- service -->
+       <div class="row justify-content-evenly ">
+        <div class="col-md-5  col-11" id="servicetext">
+          <h1 class="text-success">As a veterian and <br> lover of Animals.</h1>
+          <p class="text-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores corrupti, adipisci sed hic,
+             exercitationem cum dolor at numquam et quos illum, porro qui aliquid sint illo commodi ipsum 
+             nesciunt impedit.
+          </p>
+     
+          <button type="button" class="btn btn-outline-success" id="servicebtn">Our Service</button>
+         
+
+        </div>
+        <div class="col-md-5 col-11" id="serviceimg">
+          <img src="images/dog2.jpg" alt="" class="img-fluid" style="height: 350px; width: 470px;">
+        </div>
+       </div>
+
+       <!-- service End -->
+<!-- counter -->
+<div class="row justify-content-center" id="countersection">
+<div class="col-md-3 text-success text-center mt-3 mb-3"><h1 class="justify-content-center"><i class="fa fa-heart" aria-hidden="true"></i></h1>
+  <h3 class="text-success">+34793<br>
+  Happy Clients
+</h3>
+</div>
+
+<div class="col-md-3 text-success text-center mt-3 mb-3"><h1><i class="fa-solid fa-stethoscope"></h1></i>
+<h3 class="text-success">+45382<br>
+ Department</h3>
+</div>
+<div class="col-md-3 text-success text-center mt-3 mb-3"><h1><i class="fa-solid fa-syringe"></i></h1>
+  <h3 class="text-success">+54762<br>
+  Vaccinations</h3>
+</div>
+</div>
+<!-- counter End -->
+
+<!-- Blog section start -->
+<div class="row justify-content-evenly" id="blog">
+  <div class="col-md-12 col-11 text-center mt-2 mb-3">
+    <h1 class="text-success"><b>Recent Posts</b></h1>
+    <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+      nemo eius quam blanditiis. Mollitia nemo explicabo laudantium eligendi? Explicabo<br> 
+      adipisci minus magni ab, iure ea praesentium dicta quo.
+    </p>
+  </div>
+  <div class="col-md-3 col-11  mt-3 mb-1">
+    <img src="images/img1.jpg" alt="" class="img-thumbnail">
+    <div class="text-success mt-3 mb-1">
+      <h4><b>As a veterian and Lover of animals.</b></h4>
+      <p class="text-info">August 15,2023</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam, porro eius eligendi 
+         culpa excepturi necessitatibus illo eos. Dolorum assumenda porro vitae vero consectetur 
+         itaque rerum voluptatum iure fuga pariatur.
+      </p>
+      <p><a href="#">Read More+</a></p>
+    </div>
+  </div>
+  <div class="col-md-3 col-11 mt-3 mb-1">
+    <img src="images/img2.jpg" alt="" class="img-thumbnail">
+    <div class="text-success mt-3 mb-1">
+      <h4><b>As a veterian and Lover of animals.</b></h4>
+      <p class="text-info">August 15,2023</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam, porro eius eligendi 
+         culpa excepturi necessitatibus illo eos. Dolorum assumenda porro vitae vero consectetur 
+         itaque rerum voluptatum iure fuga pariatur.</p>
+      <p><a href="#">Read More+</a></p>
+    </div>
+  </div>
+  <div class="col-md-3 col-11  mt-3 mb-1">
+    <img src="images/img3.jpg" alt="" class="img-thumbnail">
+    <div class="text-success mt-3 mb-1">
+      <h4><b>As a veterian and Lover of animals.</b></h4>
+      <p class="text-info">August 15,2023</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam, porro eius eligendi 
+         culpa excepturi necessitatibus illo eos. Dolorum assumenda porro vitae vero consectetur 
+         itaque rerum voluptatum iure fuga pariatur.
+      </p>
+      <p><a href="#">Read More+</a></p>
+    </div>
+  </div>
+</div>
+<!-- Blog section End -->
+
+
+<!-- footer start -->
+<div class="row justify-content-center" id="footer">
+  <div class="col-md-3 col-11">
+    <h4 class="text-success">About</h4>
+    <a href="">History</a><br>
+    <a href="">Our Team</a><br>
+    <a href="">Brand GuideLines</a><br>
+    <a href="">Terms&Conditions</a><br>
+    <a href="">Privacy Policy</a><br>
+  </div>
+
+  <div class="col-md-3 col-11">
+    <h4 class="text-success">Services</h4>
+    <a href="">How to order</a><br>
+    <a href="">Our Product</a><br>
+    <a href="">Order status</a><br>
+    <a href="">Promo</a><br>
+    <a href="">Payment Method</a><br>
+  </div>
+
+  <div class="col-md-4 col-11 text-end">
+    <h4 class="text-success">Title Here</h4>
+   <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <!-- form start-->
+  <form action="">
+    <input type="text" id="footersearch">
+    <button type="button" id="submit"><i class="bi bi-cursor-fill "></i></button>
+    </form><br>
+   <!-- form End-->
+   <i class="bi bi-instagram text-success icon"></i>
+   <i class="bi bi-facebook text-success icon"></i>
+   <i class="bi bi-twitter text-success icon "></i>
+   <i class="bi bi-whatsapp text-success icon "></i>
+  </div>
+</div>
+<!-- footer End -->
+    </div>
+     <!-- container End-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
